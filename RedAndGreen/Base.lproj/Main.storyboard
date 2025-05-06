@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8fv-QP-DIs">
-                                <rect key="frame" x="16" y="138" width="361" height="301"/>
+                                <rect key="frame" x="16" y="138" width="361" height="281"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pn3-dD-pr6">
-                                <rect key="frame" x="16" y="503" width="361" height="301"/>
+                                <rect key="frame" x="16" y="483" width="361" height="281"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
@@ -30,7 +30,7 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8fv-QP-DIs" secondAttribute="trailing" constant="16" id="9rX-WE-Qkg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pn3-dD-pr6" secondAttribute="trailing" constant="16" id="CQj-O4-4kx"/>
-                            <constraint firstItem="Pn3-dD-pr6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="20" id="DKn-Iy-ITR"/>
+                            <constraint firstItem="Pn3-dD-pr6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="DKn-Iy-ITR"/>
                             <constraint firstItem="8fv-QP-DIs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="OM5-iS-tpO"/>
                             <constraint firstItem="Pn3-dD-pr6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Rht-ux-dVK"/>
                             <constraint firstItem="8fv-QP-DIs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="YXc-fc-qyx"/>
